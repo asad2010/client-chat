@@ -1,0 +1,69 @@
+
+.info-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  z-index: 10;
+  padding: 0 20px;
+}
+
+.close-btn {
+  margin-left: auto;
+  margin-right: 7px;
+  margin-top: 10px;
+  padding: 10px 20px;  
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: var(--cardColor);
+  box-shadow: var(--profileShadow);
+}
+
+.modal-profile-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.modal-profile-img>img:nth-child(2) {
+  max-width: 205px;
+  width: 100%;
+  height: 205px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+  box-shadow: var(--profileShadow);
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.profile-name > span {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

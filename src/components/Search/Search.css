@@ -1,0 +1,50 @@
+
+.search-users h4 {
+  margin:  5px auto;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-box img {
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.search-input-box {
+  display: flex;
+  background-color: var(--inputColor);
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.search-input-box input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--buttonBg);
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.open-list-btn {
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 0;
+  background-image: var(--buttonBg);
+  border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+
+.users-list {
+  overflow-y: scroll;
+  height: 84vh;
+}
+
+.user-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.user-info-box button {
+  width: 25px;
+  height: 25px;
+  padding: 4px 10px;
+  background-image: url(../../img/message.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.conversation {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.conversation>div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.online-dot {
+  background-color: rgb(75, 235, 25);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 32px;  
+}
+
+.status {
+  display: block;
+}

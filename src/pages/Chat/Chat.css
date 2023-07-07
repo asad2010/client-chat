@@ -1,0 +1,63 @@
+
+.Chat {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.left-side {
+  max-width: 280px;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0 0 15px -5px rgb(187, 187, 228);
+}
+
+.middle-box {
+  width: 100%;
+  box-shadow: 0 0 15px -5px rgb(187, 187, 228);
+  padding: 10px 20px;
+
+}
+
+.right-side {
+  max-width: 280px;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0 0 15px -5px rgb(187, 187, 228);
+}
+
+.right-side-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-side-top h2 {
+  margin-top: 0;
+}
+
+.exit-btn {
+  background-color: rgb(243, 116, 116);
+  border: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  align-self: flex-start;
+  background-image: url(../../img/logout.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.settings-btn {
+  border: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 5px;
+  align-self: flex-start;
+}

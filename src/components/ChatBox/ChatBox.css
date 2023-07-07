@@ -1,0 +1,111 @@
+
+.chatbox-container {
+  background-color: var(--cardColor);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 94vh;
+  align-items: center;
+}
+
+.chat-header {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.user-info {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 5px;
+}
+
+.user-info>div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.chat-menu-btn {
+  padding: 5px;
+}
+
+.chat-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  padding: 24px;
+  overflow-y: scroll;
+  width: 90%;
+}
+
+.message {
+  background: var(--buttonBg);
+  color: #fff;
+  padding: 10px;
+  border-radius: 16px 16px 16px 0;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+} 
+
+.message>span:nth-child(2) {
+  font-size: 10px;
+  align-self: flex-end;
+  color: #fff;
+}
+
+.own {
+  align-self: flex-end;
+  border-radius: 16px 16px 0 16px;
+  background: linear-gradient(98.63deg, #0d3fac 0%, #0ca3c9 50%, #25cff9 100%);
+  max-width: 400px;
+  width: 100%;
+}
+
+.chat-sender {
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 10px;
+  border-radius: 16px;
+  margin-top: auto;
+}
+
+.chat-sender-file-btn {
+  background-color: rgb(236, 236, 236);
+  border-radius: 8px;
+  height: 70%;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button {
+  height: 70%;
+  padding: 0 16px;
+}
+
+
+.message-file {
+  display: none;
+}
